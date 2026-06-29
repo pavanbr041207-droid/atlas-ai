@@ -83,7 +83,6 @@ jobs:
         run: |
           create-dmg \
             --volname "Atlas AI" \
-            --volicon "installer/icon.icns" \
             --window-pos 200 120 \
             --window-size 600 400 \
             --icon-size 100 \
