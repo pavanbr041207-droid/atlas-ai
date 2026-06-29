@@ -94,7 +94,7 @@ exe = EXE(
     strip=False,
     upx=True,
     console=False,                           # no terminal window
-    icon='installer/icon.ico',              # Windows icon
+    
 )
 
 coll = COLLECT(
@@ -112,7 +112,7 @@ coll = COLLECT(
 app = BUNDLE(
     coll,
     name='Atlas AI.app',
-    icon='installer/icon.icns',             # macOS icon
+    
     bundle_identifier='com.atlasai.lms',
     info_plist={
         'NSHighResolutionCapable': True,
