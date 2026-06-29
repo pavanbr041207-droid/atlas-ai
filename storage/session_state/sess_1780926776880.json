@@ -1,0 +1,28 @@
+{
+  "latest_map_id": "4993b734475e",
+  "latest_map_title": "Literacy Rate by District in Karnataka",
+  "latest_map_cmap": "Blues",
+  "updated": "2026-06-08 19:29",
+  "latest_dataset": {
+    "id": "66ab65ecac92",
+    "csv_path": "/Users/pavanbr/Desktop/choro_final_2/atlas_v10_fixed 6/backend/../storage/datasets/sess_1780926776880/66ab65ecac92.csv",
+    "label": "litracy rate.csv — Sheet1",
+    "columns": [
+      "District",
+      "Literacy_Rate"
+    ],
+    "rows": 30,
+    "geo_col": "District",
+    "value_col": "Literacy_Rate",
+    "geo_scope": "Karnataka",
+    "timestamp": "2026-06-08 19:28"
+  },
+  "latest_geo_scope": "Karnataka",
+  "latest_columns": [
+    "District",
+    "Literacy_Rate"
+  ],
+  "latest_geo_col": "District",
+  "latest_value_col": "Literacy_Rate",
+  "has_dataframe": true
+}

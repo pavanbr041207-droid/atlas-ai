@@ -1,0 +1,28 @@
+{
+  "latest_dataset": {
+    "id": "b2f089067c3f",
+    "csv_path": "/Users/pavanbr/Desktop/choro_final_2/atlas-lms-v10/backend/../storage/datasets/sess_1779986195539/b2f089067c3f.csv",
+    "label": "gdp.csv — Sheet1",
+    "columns": [
+      "District",
+      "GDP_Crore"
+    ],
+    "rows": 30,
+    "geo_col": "District",
+    "value_col": "GDP_Crore",
+    "geo_scope": "Karnataka",
+    "timestamp": "2026-05-28 22:07"
+  },
+  "latest_geo_scope": "Karnataka",
+  "latest_columns": [
+    "District",
+    "GDP_Crore"
+  ],
+  "latest_geo_col": "District",
+  "latest_value_col": "GDP_Crore",
+  "has_dataframe": true,
+  "updated": "2026-05-28 22:08",
+  "latest_map_id": "f77a5144206c",
+  "latest_map_title": "GDP by District in Karnataka",
+  "latest_map_cmap": "Blues"
+}

@@ -1,0 +1,1 @@
+{"id": "8bbd39b031eb", "session_id": "sess_1780498852814", "image_path": "/Users/pavanbr/Desktop/choro_final_2/atlas-lms-v10/backend/../storage/files/21729bafa0.png", "analysis": {"success": true, "text": "The car in the picture is a BMW.", "model_used": "qwen2.5vl:7b", "has_table": false, "has_chart": false, "ocr_text": ""}, "timestamp": "2026-06-03 20:34"}

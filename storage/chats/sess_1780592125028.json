@@ -1,0 +1,16 @@
+{
+  "id": "sess_1780592125028",
+  "name": "eplain this ppt",
+  "project_id": null,
+  "timestamp": "2026-06-04 22:25",
+  "messages": [
+    {
+      "role": "user",
+      "content": "[Attached: Presentation on Drones (AI).pptx]\neplain this ppt"
+    },
+    {
+      "role": "assistant",
+      "content": "⚠️ Could not process Presentation on Drones (AI).pptx: Unsupported file type: unknown"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "request_id": "6f7e8c453863",
+  "dataset_id": "0b7a701614d8",
+  "map_id": "42054e0efce2",
+  "session_id": "sess_1781697306131",
+  "user_prompt": "Generate choropleth map for above data",
+  "dataset": {
+    "district_col": "District (Enter The district in which your college is located.)",
+    "value_col": "Participants",
+    "dataset_label": "District (Enter The district in which your college is located.) Participants",
+    "source": "uploaded_csv"
+  },
+  "colormap": "Blues",
+  "timestamp": "2026-06-17 17:31"
+}

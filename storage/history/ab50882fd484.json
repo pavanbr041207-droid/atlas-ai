@@ -1,0 +1,15 @@
+{
+  "request_id": "ad4f913b7be4",
+  "dataset_id": "b4a127f7e7c0",
+  "map_id": "ab50882fd484",
+  "session_id": "sess_1781690165493",
+  "user_prompt": "generate choropleath map for katnataka population by districts",
+  "dataset": {
+    "district_col": "district",
+    "value_col": "population",
+    "dataset_label": "district population",
+    "source": "atlas_internal_baseline"
+  },
+  "colormap": "Blues",
+  "timestamp": "2026-06-17 15:31"
+}

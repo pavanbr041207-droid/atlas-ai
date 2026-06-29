@@ -1,0 +1,12 @@
+{
+  "provider": "ollama",
+  "ollama_model": "qwen2.5:7b",
+  "ollama_url": "http://localhost:11434",
+  "openai_model": "gpt-4o",
+  "anthropic_model": "claude-sonnet-4-6",
+  "temperature": 0.3,
+  "max_tokens": 5120,
+  "context_length": 8192,
+  "top_p": 0.9,
+  "embedding_model": "nomic-embed-text"
+}

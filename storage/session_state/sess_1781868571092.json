@@ -1,0 +1,44 @@
+{
+  "latest_dataset": {
+    "csv_path": "/Users/pavanbr/Desktop/choro_final_2/atlas-lms-v18/backend/../storage/files/437096c700.xlsx",
+    "filename": "Test data Choloplat.xlsx",
+    "rows": 197,
+    "columns": [
+      "Email Address",
+      "Score",
+      "Full Name / Team Leader (As per College ID)",
+      "Register Number (As per College ID)",
+      "Current Year Of Study",
+      "Mobile Number",
+      "Gender",
+      "College Name",
+      "Town / City ( Enter the town/city where your college is located. )",
+      "District (Enter The district in which your college is located.)",
+      "Branch / Department",
+      "Select Your Sector"
+    ],
+    "geo_col": "Full Name / Team Leader (As per College ID)",
+    "value_col": "Score",
+    "geo_scope": "karnataka",
+    "label": "Test data Choloplat.xlsx (197 rows)"
+  },
+  "latest_geo_scope": "karnataka",
+  "latest_columns": [
+    "Email Address",
+    "Score",
+    "Full Name / Team Leader (As per College ID)",
+    "Register Number (As per College ID)",
+    "Current Year Of Study",
+    "Mobile Number",
+    "Gender",
+    "College Name",
+    "Town / City ( Enter the town/city where your college is located. )",
+    "District (Enter The district in which your college is located.)",
+    "Branch / Department",
+    "Select Your Sector"
+  ],
+  "latest_geo_col": "Full Name / Team Leader (As per College ID)",
+  "latest_value_col": "Score",
+  "has_dataframe": true,
+  "updated": "2026-06-19 17:00"
+}

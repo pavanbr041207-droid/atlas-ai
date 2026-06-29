@@ -1,0 +1,102 @@
+name: Build Atlas AI — Windows EXE + macOS DMG
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:          # allow manual trigger from GitHub UI
+
+jobs:
+
+  # ════════════════════════════════════════════════════
+  # JOB 1 — Windows .exe
+  # ════════════════════════════════════════════════════
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r backend/requirements.txt
+          pip install pyinstaller
+
+      - name: Copy launcher to root
+        run: copy launcher.py launcher_entry.py
+
+      - name: Build EXE with PyInstaller
+        run: |
+          pyinstaller AtlasAI.spec --noconfirm --clean
+
+      - name: Verify build
+        run: |
+          dir "dist\Atlas AI\"
+          echo "Build complete!"
+
+      - name: Zip the EXE folder
+        run: |
+          Compress-Archive -Path "dist\Atlas AI\*" -DestinationPath "Atlas-AI-Windows.zip"
+
+      - name: Upload Windows artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Atlas-AI-Windows
+          path: Atlas-AI-Windows.zip
+          retention-days: 30
+
+  # ════════════════════════════════════════════════════
+  # JOB 2 — macOS .dmg
+  # ════════════════════════════════════════════════════
+  build-macos:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r backend/requirements.txt
+          pip install pyinstaller
+          brew install create-dmg
+
+      - name: Build .app with PyInstaller
+        run: |
+          pyinstaller AtlasAI.spec --noconfirm --clean
+
+      - name: Verify .app exists
+        run: |
+          ls -la "dist/Atlas AI.app"
+
+      - name: Create DMG
+        run: |
+          create-dmg \
+            --volname "Atlas AI" \
+            --volicon "installer/icon.icns" \
+            --window-pos 200 120 \
+            --window-size 600 400 \
+            --icon-size 100 \
+            --icon "Atlas AI.app" 175 190 \
+            --hide-extension "Atlas AI.app" \
+            --app-drop-link 425 190 \
+            --no-internet-enable \
+            "Atlas-AI-macOS.dmg" \
+            "dist/"
+
+      - name: Upload macOS artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Atlas-AI-macOS
+          path: Atlas-AI-macOS.dmg
+          retention-days: 30

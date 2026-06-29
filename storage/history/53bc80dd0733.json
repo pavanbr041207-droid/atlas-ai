@@ -1,0 +1,15 @@
+{
+  "request_id": "7c1d92af180c",
+  "dataset_id": "86dee79c6587",
+  "map_id": "53bc80dd0733",
+  "session_id": "sess_1780973270823",
+  "user_prompt": "Generate choropleth map for above data",
+  "dataset": {
+    "district_col": "District",
+    "value_col": "GDP_Crore",
+    "dataset_label": "District GDP_Crore",
+    "source": "uploaded_csv"
+  },
+  "colormap": "Blues",
+  "timestamp": "2026-06-09 08:18"
+}

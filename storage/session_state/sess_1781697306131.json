@@ -1,0 +1,28 @@
+{
+  "latest_dataset": {
+    "id": "e3df48397591",
+    "csv_path": "/Users/pavanbr/Desktop/choro_final_2/atlas_v10_fixed 6/backend/../storage/datasets/sess_1781697306131/e3df48397591.csv",
+    "label": "generalized_karnataka_district_counts.xlsx — Sheet1",
+    "columns": [
+      "District",
+      "Participants"
+    ],
+    "rows": 20,
+    "geo_col": "District",
+    "value_col": "Participants",
+    "geo_scope": "Karnataka",
+    "timestamp": "2026-06-17 17:52"
+  },
+  "latest_geo_scope": "Karnataka",
+  "latest_columns": [
+    "District",
+    "Participants"
+  ],
+  "latest_geo_col": "District",
+  "latest_value_col": "Participants",
+  "has_dataframe": true,
+  "updated": "2026-06-17 17:52",
+  "latest_map_id": "342f551ab53d",
+  "latest_map_title": "Participants by District in Karnataka",
+  "latest_map_cmap": "Blues"
+}

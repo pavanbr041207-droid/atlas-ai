@@ -1,0 +1,15 @@
+{
+  "request_id": "af0563f80ada",
+  "dataset_id": "d3f864dc65e4",
+  "map_id": "4993b734475e",
+  "session_id": "sess_1780926776880",
+  "user_prompt": "Generate choropleth map for above data",
+  "dataset": {
+    "district_col": "District",
+    "value_col": "Literacy_Rate",
+    "dataset_label": "District Literacy_Rate",
+    "source": "uploaded_csv"
+  },
+  "colormap": "Blues",
+  "timestamp": "2026-06-08 19:29"
+}

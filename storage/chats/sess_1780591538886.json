@@ -1,0 +1,16 @@
+{
+  "id": "sess_1780591538886",
+  "name": "i have to make seminar on this data present i",
+  "project_id": null,
+  "timestamp": "2026-06-04 22:16",
+  "messages": [
+    {
+      "role": "user",
+      "content": "[Attached: Presentation on Drones (AI).pptx]\ni have to make seminar on this data present in the slides give me the slide wise explination forthr ppt"
+    },
+    {
+      "role": "assistant",
+      "content": "⚠️ Could not process Presentation on Drones (AI).pptx: Unsupported file type: unknown"
+    }
+  ]
+}

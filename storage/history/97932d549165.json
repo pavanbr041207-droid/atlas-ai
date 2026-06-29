@@ -1,0 +1,15 @@
+{
+  "request_id": "205f8cb280fa",
+  "dataset_id": "22ab2d502b3e",
+  "map_id": "97932d549165",
+  "session_id": "sess_1781697306131",
+  "user_prompt": "| District                 | Participants |\n| ------------------------ | -----------: |\n| Uttara Kannada           |           32 |\n| Ramanagara               |           24 |\n| Davanagere               |           19 |\n| Bagalkot                 |           18 |\n| Gadag                    |           18 |\n| Bengaluru Urban          |           17 |\n| Haveri                   |           12 |\n| Vijayanagara             |           13 |\n| Dharwad                  |           11 |\n| Tumakuru                 |            5 |\n| Ballari                  |            3 |\n| Mysuru                   |            3 |\n| Shivamogga               |            3 |\n| Belagavi                 |            2 |\n| Chikkamagaluru           |            2 |\n| Chitradurga              |            2 |\n| Koppal                   |            2 |\n| Udupi                    |            2 |\n| Raichur                  |            1 |\n| Karnataka (Unclassified) |            1 |.   generate choropleath map for that data",
+  "dataset": {
+    "district_col": "District",
+    "value_col": "Participants",
+    "dataset_label": "District Participants",
+    "source": "uploaded_csv"
+  },
+  "colormap": "Blues",
+  "timestamp": "2026-06-17 17:42"
+}

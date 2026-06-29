@@ -1,0 +1,15 @@
+{
+  "request_id": "03fa624b198a",
+  "dataset_id": "e81cf73cdddb",
+  "map_id": "6ffdcccc7198",
+  "session_id": "sess_1780563931310",
+  "user_prompt": "can you create the chloropleth map of karnataka for rainfall",
+  "dataset": {
+    "district_col": "district",
+    "value_col": "rainfall_mm",
+    "dataset_label": "district rainfall_mm",
+    "source": "atlas_internal_baseline"
+  },
+  "colormap": "Blues",
+  "timestamp": "2026-06-04 14:36"
+}
